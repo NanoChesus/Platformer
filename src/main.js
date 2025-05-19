@@ -29,8 +29,9 @@ let config = {
             }
         }
     },
-    width: 1440,
-    height: 900,
+    mode: Phaser.Scale.WIDTH_CONTROLS_HEIGHT,
+    width: 2880,
+    height: 720,
     scene: [Load, Platformer]
 }
 
